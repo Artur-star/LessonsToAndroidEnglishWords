@@ -19,18 +19,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvQuestionWord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="86dp"
-        android:textSize="50dp"
         android:fontFamily="@font/nunito_bold"
+        android:text="Galaxy"
+        android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        android:text="Galaxy"
         tools:ignore="HardcodedText" />
 
     <LinearLayout
@@ -62,14 +62,12 @@
                 android:textSize="16sp" />
 
             <TextView
+                style="@style/TextViewVariationsStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:lineHeight="24px"
-                android:fontFamily="@font/rubik_regular"
                 android:text="Сломать"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
         <LinearLayout
@@ -91,14 +89,12 @@
                 android:textSize="16sp" />
 
             <TextView
+                style="@style/TextViewVariationsStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:lineHeight="24px"
-                android:fontFamily="@font/rubik_regular"
                 android:text="Сон"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
         <LinearLayout
@@ -120,14 +116,13 @@
                 android:textSize="16sp" />
 
             <TextView
+                style="@style/TextViewVariationsStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:lineHeight="24px"
-                android:fontFamily="@font/rubik_regular"
                 android:text="Галактика"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                tools:ignore="HardcodedText" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -149,14 +144,12 @@
                 android:textSize="16sp" />
 
             <TextView
+                style="@style/TextViewVariationsStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:lineHeight="24px"
-                android:fontFamily="@font/rubik_regular"
                 android:text="Утюг"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
     </LinearLayout>
